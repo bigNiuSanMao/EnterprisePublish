@@ -1,0 +1,35 @@
+
+<!-- saved from url=(0056)http://mobile.zjhcsoft.com/dwsoft/enterassist/iosdw.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta id="urladdress" http-equiv="refresh" content="0;URL=itms-services://?action=download-manifest&amp;url=http://mobile.zjhcsoft.com/dwsoft/enterassist/enterassist.plist">
+<!-- <meta http-equiv="refresh" content="0;URL=itms-services://?action=download-manifest&url=http://mobile.zjhcsoft.com/dwsoft/enterassist/enterassist.plist"> -->
+
+<script type="text/javascript">
+	var bs={
+		highVersion:function(){
+			var u = navigator.userAgent, app = navigator.appVersion;
+			var version = u.substr(u.indexOf('OS')+3,u.indexOf('like')-u.indexOf('OS')-4);
+			var vs = version.split('_');
+			var flag = false;//�汾С��7.1
+			if(vs[0]>=7){
+				if(vs[1]>=1){
+					flag = true;//�汾����7.1
+				}
+			}
+			return flag;
+		}
+    } 
+	var theurl = '';
+	if(bs.highVersion()){
+		theurl = "https://dl.dropboxusercontent.com/s/jtrh5rbncnimf62/ParentControl.plist";
+	}else{
+		theurl = "http://www.kid06.cn/dwsoft/ParentControl/ParentControl.plist";
+	}
+  document.getElementById('urladdress').content = "0;URL=itms-services://?action=download-manifest&url=" + theurl;
+  
+  //alert(document.getElementById('urladdress').content);
+</script>
+<style type="text/css"></style></head>
+<body>
+</body><div id="GepUuM_0bMFZGZn7Q" class="O9FOyZxYuDxSNxOxWPB_zpD6" style="display: none;"></div><div id="mRXYzoVyFypH5rO9wb3vnX_N9" class="O9FOyZxYuDxSNxOxWPB_zpD6" style="display: none;"></div><div id="zCEQGx8FfpdIgG5sY" class="O9FOyZxYuDxSNxOxWPB_zpD6" style="display: none;"></div></html>
